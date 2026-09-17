@@ -1,8 +1,8 @@
-# Redesign for rebreather — Seaglass / R–01
+# Redesign for rebreather — Monochrome / R–02
 
-Part of **Aquifer**, a shared visual direction for BLU-OEN’s Minecraft equipment: weathered copper, dark metal, patina and sea glass.
+Part of **Aquifer**, a shared visual direction for BLU-OEN’s Minecraft equipment: matte black housings, white enamel framing, satin silver details and smoked optics. Surfaces use clean bevels and seams, with no weathering or colored accents.
 
-A diving mask with copper lens frames, sea-green optics, protective patina brows, rubber seals, a central slatted regulator, twin filter housings and a woven strap. The held/inventory item gets a sculpted 3D model. The equipped mask gets its own 128 × 64 pixel armor texture, retaining exposed hair and the original head layer.
+A diving mask with white lens frames, smoked optics, protective black brows, rubber seals, a central slatted regulator, twin filter housings and a woven strap. The held/inventory item gets a sculpted 3D model. The equipped mask gets its own 128 × 64 pixel armor texture, retaining exposed hair and the original head layer.
 
 ![Redesign preview](preview.png)
 
@@ -10,7 +10,7 @@ A diving mask with copper lens frames, sea-green optics, protective patina brows
 
 Download this folder, then double-click **redesign for rebreather.html**. The file includes the model, textures and resource-pack download, so it works offline without a server or JavaScript packages. GitHub displays HTML source; open a downloaded copy in a browser.
 
-Drag to orbit, scroll to zoom, or focus the canvas and use the arrow and +/− keys. Use the view and equipment/state controls to inspect the design. Explode separates components for inspection only. Automatic orbit is off by default; rotor animation respects reduced-motion preferences.
+Drag to orbit, scroll to zoom, or focus the canvas and use the arrow and +/− keys. The viewer is a single model canvas with basic view, equipment/state and zoom controls. Reset view restores the starting angle and zoom. Rotor animation respects reduced-motion preferences, and the renderer only redraws when the view or animation changes.
 
 ## Use in Minecraft
 
@@ -48,7 +48,7 @@ The build regenerates geometry, PNG textures, the ZIP and the offline preview. E
 
 Minecraft renders equipped armor independently of its item model. The equipped design uses the existing head armor cuboid and its vanilla UV layout. Raised filter geometry appears on the 3D item, not on the player; adding that to the player would need a custom armor renderer. The preview’s **Worn mask** mode shows the actual supplied armor texture on a neutral head. The original breathing, night vision, durability and crafting behavior stays in the mod.
 
-The browser uses exported geometry and textures with studio lighting. Minecraft’s world lighting, mipmaps, player skin and equipped armor rendering can look different. Asset validation and browser checks have been run; **these redesigns have not been tested inside Minecraft**.
+The browser uses exported geometry and textures with simple directional shading. Minecraft’s world lighting, mipmaps, player skin and equipped armor rendering can look different. Asset validation and browser checks have been run; **these redesigns have not been tested inside Minecraft**.
 
 ## Format references
 

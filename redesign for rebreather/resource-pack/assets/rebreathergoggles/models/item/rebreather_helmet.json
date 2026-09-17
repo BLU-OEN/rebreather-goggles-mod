@@ -1,5 +1,5 @@
 {
-  "credit": "BLU-OEN / Aquifer redesign",
+  "credit": "BLU-OEN / Aquifer monochrome redesign",
   "ambientocclusion": true,
   "gui_light": "side",
   "textures": {
@@ -146,7 +146,7 @@
       }
     },
     {
-      "name": "Copper lens frame",
+      "name": "White lens frame",
       "from": [
         1,
         8,
@@ -215,7 +215,7 @@
       }
     },
     {
-      "name": "Sea glass lens",
+      "name": "Smoked lens",
       "from": [
         1.7,
         8.7,
@@ -422,7 +422,7 @@
       }
     },
     {
-      "name": "Copper lens frame",
+      "name": "White lens frame",
       "from": [
         9,
         8,
@@ -491,7 +491,7 @@
       }
     },
     {
-      "name": "Sea glass lens",
+      "name": "Smoked lens",
       "from": [
         9.7,
         8.7,
